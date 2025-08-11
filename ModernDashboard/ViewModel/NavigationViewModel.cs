@@ -1,4 +1,11 @@
-﻿using System.Collections.ObjectModel;
+﻿// <summary>
+// ViewModel - ["The Connector"]
+// ViewModel exposes data contained in the model objects to the view. The ViewModel performs 
+// all modification made to the Model data.
+// </summary>
+
+
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Data;
 using System.Windows.Input;
@@ -7,7 +14,7 @@ using ModernDashboard.Model;
 
 namespace ModernDashboard.ViewModel
 {
-    class NavigataionViewModel : INotifyPropertyChanged
+    class NavigationViewModel : INotifyPropertyChanged
     {
         // CollectionViewSource enables XAML code to set the commonly used CollectionView properties,
         // passing these settings to the underlying view.
@@ -17,7 +24,7 @@ namespace ModernDashboard.ViewModel
         // custom sorting, filtering, and grouping.
         public ICollectionView SourceCollection => MenuItemsCollection.View;
 
-        public NavigataionViewModel()
+        public NavigationViewModel()
         {
             // ObservableCollection represents a dynamic data collection that provides notification when items
             // get added, removed, or when the whole list id refreshed.

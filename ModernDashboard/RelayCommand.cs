@@ -40,7 +40,7 @@ namespace ModernDashboard
         }
         public void Execute(object parameter)
         {
-            execute(parameter)
+            execute(parameter);
         }
 
 
