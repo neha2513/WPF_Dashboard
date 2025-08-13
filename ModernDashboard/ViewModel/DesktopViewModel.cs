@@ -56,7 +56,7 @@ namespace ModernDashboard.ViewModel
                 return;
             }
 
-            DesktopItems _item = e.Item as DesktopItems;
+            DesktopItems? _item = e.Item as DesktopItems;
             if (_item.DesktopName.ToUpper().Contains(FilterText.ToUpper()))
             {
                 e.Accepted = true;
