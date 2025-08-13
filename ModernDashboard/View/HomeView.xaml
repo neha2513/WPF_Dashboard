@@ -7,8 +7,8 @@
              xmlns:navigation="clr-namespace:ModernDashboard.ViewModel"
              mc:Ignorable="d"
              d:DesignHeight="500"
-             d:DesignWidth="650">   
-   
+             d:DesignWidth="650">
+
     <UserControl.Style>
         <Style>
             <Style.Triggers>
@@ -61,8 +61,7 @@
             </ItemsControl.ItemsPanel>
 
         </ItemsControl>
-     
+
 
     </Grid>
-
 </UserControl>

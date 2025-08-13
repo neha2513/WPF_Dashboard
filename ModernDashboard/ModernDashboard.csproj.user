@@ -5,5 +5,32 @@
     <Compile Update="View\DesktopView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\DocumentView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\DownloadView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\HomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MovieView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\MusicView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PCView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\PictureView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\StartupView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TrashView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

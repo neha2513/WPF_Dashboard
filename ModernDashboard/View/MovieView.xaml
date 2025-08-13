@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ModernDashboard.View"
              mc:Ignorable="d" 
-             d:DesignHeight="500" d:DesignWidth="650">   
+             d:DesignHeight="500" d:DesignWidth="650">
 
     <UserControl.Style>
         <Style>
@@ -23,7 +23,7 @@
             </Style.Triggers>
         </Style>
     </UserControl.Style>
-    
+
     <Grid Background="#303030">
 
         <TextBlock Text="Movies"
